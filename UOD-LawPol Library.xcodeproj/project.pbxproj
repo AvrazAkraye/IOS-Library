@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C74AE39B44E40527DA776E7 /* Pods_UOD_LawPol_Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C08736118F6F8D8770E3469 /* Pods_UOD_LawPol_Library.framework */; };
+		770257BF1E932E1400707644 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770257BE1E932E1400707644 /* File.swift */; };
+		77338B071E95CFBE00688525 /* browsewebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77338B061E95CFBE00688525 /* browsewebVC.swift */; };
+		7748AA341E8FCFBD00D80575 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748AA331E8FCFBD00D80575 /* AppDelegate.swift */; };
+		7748AA361E8FCFBD00D80575 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748AA351E8FCFBD00D80575 /* ViewController.swift */; };
+		7748AA391E8FCFBD00D80575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7748AA371E8FCFBD00D80575 /* Main.storyboard */; };
+		7748AA3E1E8FCFBD00D80575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7748AA3D1E8FCFBD00D80575 /* Assets.xcassets */; };
+		7748AA491E8FD1D500D80575 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7748AA481E8FD1D500D80575 /* Launch Screen.storyboard */; };
+		7748AA4B1E8FD4E400D80575 /* aboutus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748AA4A1E8FD4E400D80575 /* aboutus.swift */; };
+		7748AA4D1E8FE1E600D80575 /* contentvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7748AA4C1E8FE1E600D80575 /* contentvc.swift */; };
+		775127DB1E99C5FD003F9769 /* lunch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 775127DA1E99C5FD003F9769 /* lunch.jpg */; };
+		77534AF61E9FFD4400FE9DE7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77534AF51E9FFD4400FE9DE7 /* MapKit.framework */; };
+		775D8EBB1E9BF6CF00D4FCD0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D8EB71E9BF6CF00D4FCD0 /* 1.png */; };
+		775D8EBC1E9BF6CF00D4FCD0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D8EB81E9BF6CF00D4FCD0 /* 2.png */; };
+		775D8EBD1E9BF6CF00D4FCD0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D8EB91E9BF6CF00D4FCD0 /* 3.png */; };
+		775D8EBE1E9BF6CF00D4FCD0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 775D8EBA1E9BF6CF00D4FCD0 /* 4.png */; };
+		775D8EC11E9BF98E00D4FCD0 /* locationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D8EC01E9BF98E00D4FCD0 /* locationVC.swift */; };
+		775F91AE1E95A4C800C797F3 /* aboutwebVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775F91AD1E95A4C800C797F3 /* aboutwebVc.swift */; };
+		776190FD1EAB7BB100DA2D2D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776190FC1EAB7BB100DA2D2D /* Reachability.swift */; };
+		776190FF1EAB7FFF00DA2D2D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776190FE1EAB7FFF00DA2D2D /* Alert.swift */; };
+		776191091EABA74F00DA2D2D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 776191081EABA74F00DA2D2D /* Alamofire.framework */; };
+		7761910D1EABA89F00DA2D2D /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7761910C1EABA89F00DA2D2D /* SweetAlert.swift */; };
+		7764A0571E92EC7D003BC1F3 /* droid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7764A0561E92EC7D003BC1F3 /* droid.ttf */; };
+		776958901E9A7AE20010B846 /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7769588F1E9A7AE20010B846 /* tabbarViewController.swift */; };
+		776958951E9A9F890010B846 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 776958941E9A9F890010B846 /* SWRevealViewController.m */; };
+		776958991E9AB2060010B846 /* tablesidetvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776958981E9AB2060010B846 /* tablesidetvc.swift */; };
+		7769589D1E9ABEC60010B846 /* ar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7769589A1E9ABEC60010B846 /* ar.png */; };
+		7769589F1E9ABEC60010B846 /* ku.png in Resources */ = {isa = PBXBuildFile; fileRef = 7769589C1E9ABEC60010B846 /* ku.png */; };
+		776958A11E9AC6110010B846 /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 776958A01E9AC6110010B846 /* usa.png */; };
+		776958A31E9AD1D70010B846 /* ccell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776958A21E9AD1D70010B846 /* ccell.swift */; };
+		778C2B111EA0121200D29434 /* contactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C2B101EA0121200D29434 /* contactVC.swift */; };
+		77BDE9D71E9C282F008FCE65 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 77BDE9D61E9C282F008FCE65 /* 5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AA12BEFB12138CC9C62DF4C /* Pods-UOD-LawPol Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UOD-LawPol Library.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UOD-LawPol Library/Pods-UOD-LawPol Library.debug.xcconfig"; sourceTree = "<group>"; };
+		4C08736118F6F8D8770E3469 /* Pods_UOD_LawPol_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UOD_LawPol_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770257BE1E932E1400707644 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		77338B061E95CFBE00688525 /* browsewebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = browsewebVC.swift; sourceTree = "<group>"; };
+		7748AA301E8FCFBD00D80575 /* UOD-LawPol Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UOD-LawPol Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7748AA331E8FCFBD00D80575 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7748AA351E8FCFBD00D80575 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7748AA381E8FCFBD00D80575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7748AA3D1E8FCFBD00D80575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7748AA421E8FCFBD00D80575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7748AA481E8FD1D500D80575 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7748AA4A1E8FD4E400D80575 /* aboutus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aboutus.swift; path = ../aboutus.swift; sourceTree = "<group>"; };
+		7748AA4C1E8FE1E600D80575 /* contentvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = contentvc.swift; path = ../contentvc.swift; sourceTree = "<group>"; };
+		775127DA1E99C5FD003F9769 /* lunch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lunch.jpg; sourceTree = "<group>"; };
+		77534AF51E9FFD4400FE9DE7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		775D8EB71E9BF6CF00D4FCD0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		775D8EB81E9BF6CF00D4FCD0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		775D8EB91E9BF6CF00D4FCD0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		775D8EBA1E9BF6CF00D4FCD0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		775D8EC01E9BF98E00D4FCD0 /* locationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationVC.swift; sourceTree = "<group>"; };
+		775F91AD1E95A4C800C797F3 /* aboutwebVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutwebVc.swift; sourceTree = "<group>"; };
+		776190FC1EAB7BB100DA2D2D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		776190FE1EAB7FFF00DA2D2D /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		776191081EABA74F00DA2D2D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/UOD-LawPol_Library-fcpdvcglcrrvpggnbxifsnfkpqyr/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		7761910A1EABA76000DA2D2D /* SwiftAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftAlertView.framework; path = "../../../Library/Developer/Xcode/DerivedData/UOD-LawPol_Library-fcpdvcglcrrvpggnbxifsnfkpqyr/Build/Products/Debug-iphonesimulator/SwiftAlertView/SwiftAlertView.framework"; sourceTree = "<group>"; };
+		7761910C1EABA89F00DA2D2D /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		7764A0561E92EC7D003BC1F3 /* droid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = droid.ttf; sourceTree = "<group>"; };
+		7769588F1E9A7AE20010B846 /* tabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
+		776958921E9A9F880010B846 /* UOD-LawPol Library-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UOD-LawPol Library-Bridging-Header.h"; sourceTree = "<group>"; };
+		776958931E9A9F890010B846 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		776958941E9A9F890010B846 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		776958981E9AB2060010B846 /* tablesidetvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tablesidetvc.swift; sourceTree = "<group>"; };
+		7769589A1E9ABEC60010B846 /* ar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar.png; sourceTree = "<group>"; };
+		7769589C1E9ABEC60010B846 /* ku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ku.png; sourceTree = "<group>"; };
+		776958A01E9AC6110010B846 /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		776958A21E9AD1D70010B846 /* ccell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ccell.swift; sourceTree = "<group>"; };
+		778C2B101EA0121200D29434 /* contactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactVC.swift; sourceTree = "<group>"; };
+		77BDE9D61E9C282F008FCE65 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		C87815F5365E5484F0C5E44C /* Pods-UOD-LawPol Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UOD-LawPol Library.release.xcconfig"; path = "Pods/Target Support Files/Pods-UOD-LawPol Library/Pods-UOD-LawPol Library.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7748AA2D1E8FCFBD00D80575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776191091EABA74F00DA2D2D /* Alamofire.framework in Frameworks */,
+				77534AF61E9FFD4400FE9DE7 /* MapKit.framework in Frameworks */,
+				4C74AE39B44E40527DA776E7 /* Pods_UOD_LawPol_Library.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E50BAF134D2A3A9A2F67563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7761910A1EABA76000DA2D2D /* SwiftAlertView.framework */,
+				776191081EABA74F00DA2D2D /* Alamofire.framework */,
+				77534AF51E9FFD4400FE9DE7 /* MapKit.framework */,
+				4C08736118F6F8D8770E3469 /* Pods_UOD_LawPol_Library.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2340F60BBD041D689042AE8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA12BEFB12138CC9C62DF4C /* Pods-UOD-LawPol Library.debug.xcconfig */,
+				C87815F5365E5484F0C5E44C /* Pods-UOD-LawPol Library.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7748AA271E8FCFBD00D80575 = {
+			isa = PBXGroup;
+			children = (
+				776958911E9A9F780010B846 /* SWLift */,
+				7764A0551E92E190003BC1F3 /* font */,
+				7748AA311E8FCFBD00D80575 /* Products */,
+				7748AA321E8FCFBD00D80575 /* UOD-LawPol Library */,
+				2340F60BBD041D689042AE8D /* Pods */,
+				1E50BAF134D2A3A9A2F67563 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7748AA311E8FCFBD00D80575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7748AA301E8FCFBD00D80575 /* UOD-LawPol Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7748AA321E8FCFBD00D80575 /* UOD-LawPol Library */ = {
+			isa = PBXGroup;
+			children = (
+				775D8EBF1E9BF95A00D4FCD0 /* sidemenuepages */,
+				7748AA4F1E8FE20C00D80575 /* assist */,
+				7748AA4E1E8FE1F400D80575 /* vc */,
+				7748AA331E8FCFBD00D80575 /* AppDelegate.swift */,
+				776190FE1EAB7FFF00DA2D2D /* Alert.swift */,
+				7748AA481E8FD1D500D80575 /* Launch Screen.storyboard */,
+				7748AA371E8FCFBD00D80575 /* Main.storyboard */,
+				770257BE1E932E1400707644 /* File.swift */,
+			);
+			path = "UOD-LawPol Library";
+			sourceTree = "<group>";
+		};
+		7748AA4E1E8FE1F400D80575 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				7748AA4A1E8FD4E400D80575 /* aboutus.swift */,
+				7748AA4C1E8FE1E600D80575 /* contentvc.swift */,
+				7748AA351E8FCFBD00D80575 /* ViewController.swift */,
+				775F91AD1E95A4C800C797F3 /* aboutwebVc.swift */,
+				77338B061E95CFBE00688525 /* browsewebVC.swift */,
+				7769588F1E9A7AE20010B846 /* tabbarViewController.swift */,
+				776958981E9AB2060010B846 /* tablesidetvc.swift */,
+				776958A21E9AD1D70010B846 /* ccell.swift */,
+			);
+			name = vc;
+			sourceTree = "<group>";
+		};
+		7748AA4F1E8FE20C00D80575 /* assist */ = {
+			isa = PBXGroup;
+			children = (
+				776190FC1EAB7BB100DA2D2D /* Reachability.swift */,
+				7763CAA41E9BF16E00E3797C /* contact icon */,
+				7769589A1E9ABEC60010B846 /* ar.png */,
+				7769589C1E9ABEC60010B846 /* ku.png */,
+				776958A01E9AC6110010B846 /* usa.png */,
+				7748AA3D1E8FCFBD00D80575 /* Assets.xcassets */,
+				7748AA421E8FCFBD00D80575 /* Info.plist */,
+				775127DA1E99C5FD003F9769 /* lunch.jpg */,
+				7761910C1EABA89F00DA2D2D /* SweetAlert.swift */,
+			);
+			name = assist;
+			sourceTree = "<group>";
+		};
+		775D8EBF1E9BF95A00D4FCD0 /* sidemenuepages */ = {
+			isa = PBXGroup;
+			children = (
+				775D8EC01E9BF98E00D4FCD0 /* locationVC.swift */,
+				778C2B101EA0121200D29434 /* contactVC.swift */,
+			);
+			name = sidemenuepages;
+			sourceTree = "<group>";
+		};
+		7763CAA41E9BF16E00E3797C /* contact icon */ = {
+			isa = PBXGroup;
+			children = (
+				775D8EB71E9BF6CF00D4FCD0 /* 1.png */,
+				775D8EB81E9BF6CF00D4FCD0 /* 2.png */,
+				775D8EB91E9BF6CF00D4FCD0 /* 3.png */,
+				775D8EBA1E9BF6CF00D4FCD0 /* 4.png */,
+				77BDE9D61E9C282F008FCE65 /* 5.png */,
+			);
+			name = "contact icon";
+			sourceTree = "<group>";
+		};
+		7764A0551E92E190003BC1F3 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				7764A0561E92EC7D003BC1F3 /* droid.ttf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		776958911E9A9F780010B846 /* SWLift */ = {
+			isa = PBXGroup;
+			children = (
+				776958931E9A9F890010B846 /* SWRevealViewController.h */,
+				776958941E9A9F890010B846 /* SWRevealViewController.m */,
+				776958921E9A9F880010B846 /* UOD-LawPol Library-Bridging-Header.h */,
+			);
+			name = SWLift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7748AA2F1E8FCFBD00D80575 /* UOD-LawPol Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7748AA451E8FCFBD00D80575 /* Build configuration list for PBXNativeTarget "UOD-LawPol Library" */;
+			buildPhases = (
+				121AE0806B782C1D3D88301A /* [CP] Check Pods Manifest.lock */,
+				7748AA2C1E8FCFBD00D80575 /* Sources */,
+				7748AA2D1E8FCFBD00D80575 /* Frameworks */,
+				7748AA2E1E8FCFBD00D80575 /* Resources */,
+				FE4DD713AC8C19F20427556C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UOD-LawPol Library";
+			productName = "UOD-LawPol Library";
+			productReference = 7748AA301E8FCFBD00D80575 /* UOD-LawPol Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7748AA281E8FCFBD00D80575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = avraz;
+				TargetAttributes = {
+					7748AA2F1E8FCFBD00D80575 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LU83QKW3P6;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7748AA2B1E8FCFBD00D80575 /* Build configuration list for PBXProject "UOD-LawPol Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 7748AA271E8FCFBD00D80575;
+			productRefGroup = 7748AA311E8FCFBD00D80575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7748AA2F1E8FCFBD00D80575 /* UOD-LawPol Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7748AA2E1E8FCFBD00D80575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775D8EBE1E9BF6CF00D4FCD0 /* 4.png in Resources */,
+				775D8EBD1E9BF6CF00D4FCD0 /* 3.png in Resources */,
+				775D8EBB1E9BF6CF00D4FCD0 /* 1.png in Resources */,
+				7748AA491E8FD1D500D80575 /* Launch Screen.storyboard in Resources */,
+				775D8EBC1E9BF6CF00D4FCD0 /* 2.png in Resources */,
+				7769589F1E9ABEC60010B846 /* ku.png in Resources */,
+				7748AA3E1E8FCFBD00D80575 /* Assets.xcassets in Resources */,
+				776958A11E9AC6110010B846 /* usa.png in Resources */,
+				7769589D1E9ABEC60010B846 /* ar.png in Resources */,
+				7748AA391E8FCFBD00D80575 /* Main.storyboard in Resources */,
+				775127DB1E99C5FD003F9769 /* lunch.jpg in Resources */,
+				77BDE9D71E9C282F008FCE65 /* 5.png in Resources */,
+				7764A0571E92EC7D003BC1F3 /* droid.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121AE0806B782C1D3D88301A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UOD-LawPol Library-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE4DD713AC8C19F20427556C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UOD-LawPol Library/Pods-UOD-LawPol Library-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UOD-LawPol Library/Pods-UOD-LawPol Library-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7748AA2C1E8FCFBD00D80575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776190FD1EAB7BB100DA2D2D /* Reachability.swift in Sources */,
+				7748AA361E8FCFBD00D80575 /* ViewController.swift in Sources */,
+				77338B071E95CFBE00688525 /* browsewebVC.swift in Sources */,
+				776190FF1EAB7FFF00DA2D2D /* Alert.swift in Sources */,
+				770257BF1E932E1400707644 /* File.swift in Sources */,
+				7748AA341E8FCFBD00D80575 /* AppDelegate.swift in Sources */,
+				7748AA4D1E8FE1E600D80575 /* contentvc.swift in Sources */,
+				775F91AE1E95A4C800C797F3 /* aboutwebVc.swift in Sources */,
+				776958991E9AB2060010B846 /* tablesidetvc.swift in Sources */,
+				776958951E9A9F890010B846 /* SWRevealViewController.m in Sources */,
+				776958A31E9AD1D70010B846 /* ccell.swift in Sources */,
+				7761910D1EABA89F00DA2D2D /* SweetAlert.swift in Sources */,
+				776958901E9A7AE20010B846 /* tabbarViewController.swift in Sources */,
+				7748AA4B1E8FD4E400D80575 /* aboutus.swift in Sources */,
+				775D8EC11E9BF98E00D4FCD0 /* locationVC.swift in Sources */,
+				778C2B111EA0121200D29434 /* contactVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7748AA371E8FCFBD00D80575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7748AA381E8FCFBD00D80575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7748AA431E8FCFBD00D80575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7748AA441E8FCFBD00D80575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7748AA461E8FCFBD00D80575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA12BEFB12138CC9C62DF4C /* Pods-UOD-LawPol Library.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LU83QKW3P6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "UOD-LawPol Library/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = clp.portal.uod.ac.lawlib.new;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UOD-LawPol Library-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7748AA471E8FCFBD00D80575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87815F5365E5484F0C5E44C /* Pods-UOD-LawPol Library.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LU83QKW3P6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "UOD-LawPol Library/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = clp.portal.uod.ac.lawlib.new;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UOD-LawPol Library-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7748AA2B1E8FCFBD00D80575 /* Build configuration list for PBXProject "UOD-LawPol Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7748AA431E8FCFBD00D80575 /* Debug */,
+				7748AA441E8FCFBD00D80575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7748AA451E8FCFBD00D80575 /* Build configuration list for PBXNativeTarget "UOD-LawPol Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7748AA461E8FCFBD00D80575 /* Debug */,
+				7748AA471E8FCFBD00D80575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7748AA281E8FCFBD00D80575 /* Project object */;
+}
